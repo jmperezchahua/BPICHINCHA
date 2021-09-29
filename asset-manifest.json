@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jmperezchahua/BPICHINCHA/static/css/main.f0459277.chunk.css",
+    "main.js": "/jmperezchahua/BPICHINCHA/static/js/main.64d936f2.chunk.js",
+    "main.js.map": "/jmperezchahua/BPICHINCHA/static/js/main.64d936f2.chunk.js.map",
+    "runtime-main.js": "/jmperezchahua/BPICHINCHA/static/js/runtime-main.be071599.js",
+    "runtime-main.js.map": "/jmperezchahua/BPICHINCHA/static/js/runtime-main.be071599.js.map",
+    "static/js/2.6f80ea3f.chunk.js": "/jmperezchahua/BPICHINCHA/static/js/2.6f80ea3f.chunk.js",
+    "static/js/2.6f80ea3f.chunk.js.map": "/jmperezchahua/BPICHINCHA/static/js/2.6f80ea3f.chunk.js.map",
+    "index.html": "/jmperezchahua/BPICHINCHA/index.html",
+    "static/css/main.f0459277.chunk.css.map": "/jmperezchahua/BPICHINCHA/static/css/main.f0459277.chunk.css.map",
+    "static/js/2.6f80ea3f.chunk.js.LICENSE.txt": "/jmperezchahua/BPICHINCHA/static/js/2.6f80ea3f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be071599.js",
+    "static/js/2.6f80ea3f.chunk.js",
+    "static/css/main.f0459277.chunk.css",
+    "static/js/main.64d936f2.chunk.js"
+  ]
+}
