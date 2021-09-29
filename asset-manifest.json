@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jmperezchahua/BPICHINCHA/static/css/main.f0459277.chunk.css",
-    "main.js": "/jmperezchahua/BPICHINCHA/static/js/main.3c616150.chunk.js",
-    "main.js.map": "/jmperezchahua/BPICHINCHA/static/js/main.3c616150.chunk.js.map",
+    "main.js": "/jmperezchahua/BPICHINCHA/static/js/main.b7207020.chunk.js",
+    "main.js.map": "/jmperezchahua/BPICHINCHA/static/js/main.b7207020.chunk.js.map",
     "runtime-main.js": "/jmperezchahua/BPICHINCHA/static/js/runtime-main.be071599.js",
     "runtime-main.js.map": "/jmperezchahua/BPICHINCHA/static/js/runtime-main.be071599.js.map",
     "static/js/2.51714040.chunk.js": "/jmperezchahua/BPICHINCHA/static/js/2.51714040.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.be071599.js",
     "static/js/2.51714040.chunk.js",
     "static/css/main.f0459277.chunk.css",
-    "static/js/main.3c616150.chunk.js"
+    "static/js/main.b7207020.chunk.js"
   ]
 }
