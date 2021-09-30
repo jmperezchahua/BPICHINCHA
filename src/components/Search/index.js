@@ -1,16 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { data } from "../../redux/data";
+import { getSerie } from "../../redux/serie";
+
+import "./index.css";
 
 const Search = () => {
   const [input, stateInput] = useState("");
   const dispatch = useDispatch();
-  const dataApi = useSelector((state) => state.serie);
-
-  const filter = (data, input) =>
-    data.filter(
-      (ele) => ele.name.toLowerCase().indexOf(input.toLowerCase()) >= 0
-    );
 
   const onChange = (e) => {
     stateInput(e.target.value);
@@ -18,20 +15,15 @@ const Search = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    if (input && input.length) {
-      if (dataApi) {
-        const filterResult = filter(dataApi, input);
-        if (filterResult.length) dispatch(data(filterResult));
-      }
-    } else {
-      if (dataApi) dispatch(data(dataApi));
-    }
+    dispatch(getSerie(input));
   };
 
+  useEffect(() => {}, [dispatch]);
+
   return (
-    <form className="d-flex text-center m-5" onSubmit={onSubmit}>
+    <form className="filter-form" onSubmit={onSubmit}>
       <input
-        className="form-control me-2"
+        className="form-control search"
         type="search"
         placeholder="Search"
         aria-label="Search"

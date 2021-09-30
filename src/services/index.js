@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const Serie = () => {
-  const api = `https://rickandmortyapi.com/api/character`;
+const Serie = (name) => {
+  const api = `https://rickandmortyapi.com/api/character/?name=${name}`;
   return axios
     .get(api)
     .then((res) => res.data)

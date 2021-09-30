@@ -10,7 +10,7 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getSerie());
+    dispatch(getSerie(""));
   }, [dispatch]);
 
   return (
